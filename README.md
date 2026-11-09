@@ -32,7 +32,7 @@ The notebook imports `numpy`, `matplotlib`, and from `scipy`: `eigh`, `eigh_trid
 
 It then sets natural units for the model problems:
 
-$$\hbar = 1,\qquad m = 1\ (\texttt{m\_eff}),\qquad L = 1.0 .$$
+$\hbar $= 1, $\qquad$ m = 1\ (\texttt{m\_eff}),\qquad L = 1.0 .$$
 
 In these units the energy unit is $\hbar^2/(mL^2)$. Sections 7 and 10 switch to physical units (eV and nm) with
 $\hbar^2/2m_0 = 0.0381\ \text{eV nm}^2$, where $m_0$ is the free-electron mass.
@@ -111,7 +111,7 @@ Fitted Slopes (Convergence Order):
   Level n=5: 1.9955
 ```
 
-![Convergence of the infinite square well, from the notebook](images/notebook_cell2_plot.png)
+![Convergence of the infinite square well, from the notebook](results/cell03_fig1.png)
 
 *Graph from the notebook (cell 3): relative energy error against grid spacing for $n=1\ldots5$. All five lines are straight with slope ≈ 2.*
 
@@ -149,7 +149,7 @@ $$N_{\text{bound}}=\left\lceil\frac{2z_0}{\pi}\right\rceil$$
 
 ### Result (notebook plot, cell 5)
 
-![Bound-state count check, from the notebook](images/notebook_cell4_plot.png)
+![Bound-state count check, from the notebook](results/cell05_fig1.png)
 
 *Graph from the notebook (cell 5): number of bound states against well depth $V_0$.*
 
@@ -206,7 +206,7 @@ $$V_j=-\frac{\alpha}{a}\ \text{ at the grid point nearest } x=0,\qquad V_j=0 \te
 Fitted convergence slope for Delta Potential: 1.98 (Expected ~1.0 due to derivative discontinuity)
 ```
 
-![Delta-well convergence, from the notebook](images/notebook_cell7_plot.png)
+![Delta-well convergence, from the notebook](results/cell08_fig1.png)
 
 *Graph from the notebook (cell 8): relative energy error of the delta-well ground state against grid spacing (slope 1.98).*
 
